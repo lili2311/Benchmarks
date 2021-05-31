@@ -1,4 +1,4 @@
-FROM mysql:5.7.19
+FROM mysql:5.7.33
 
 ADD create.sql /docker-entrypoint-initdb.d/
 ADD my.cnf /etc/mysql/conf.d/
